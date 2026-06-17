@@ -2,7 +2,7 @@ const mongoose=require("mongoose")
 
 const connectdb=async()=>{
     try{
-        await mongoose.connect("mongodb+srv://amanikanta354_db_user:27092005@cluster0.7ezlifq.mongodb.net/")
+        await mongoose.connect("")
         console.log("db connected")
     }
     catch(err){
